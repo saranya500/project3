@@ -1,0 +1,58 @@
+body{
+
+    background:url(logic.jpeg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.regform{
+    
+width:300px;
+background-color: rgba(0,0,0,.5);
+margin:100px auto;
+color:white;
+padding:10px 20px 30px;
+font-size: 20px;
+border-radius: 20px;
+}
+h3{
+   color:skyblue;
+   text-align: center;
+   font-size: 30px;
+   
+}
+.regform .textlable{
+    display:block;
+}
+ .input input{
+    width: 100%;
+    font-size: 1.2rem;
+    border:2px solid skyblue;
+    box-shadow: 2px;
+    border-radius: 20px;
+    padding: 1px 10px;
+    box-sizing: border-box;
+    margin:5px 0px 15px;
+ }
+ input:focus{
+    background-color:pink;
+ }
+ .btn{
+    text-align: center;
+    
+ }
+ button{
+    background-color: cadetblue;
+    color:white;
+    font-size: 1.5 rem;
+    margin-top:10px;
+    padding:10px 15px;
+    border:2px solid skyblue;
+    border-radius: 10%;
+    box-shadow: 20px;
+ }
+
+ .radio{
+    accent-color:#83c5be;
+    font-size: 1.5rem;
+
+ }
